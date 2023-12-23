@@ -10,14 +10,14 @@
     --primary_glass: #e9d7a71a
     --gradient1: linear-gradient(179.78deg, #1C121F 9.98%, rgba(28, 18, 31, 0.21) 81.39%)
     --inner_shadow: 2px 0 0 0 #e03054 inest
-    --text1: #bdaac1 
+    --text1: #bdaac1
     --text2: #96839b
     --text-red: #d53d5c
     --border_color: #49374e
     --blured: #e7b226b2
     --blured2: #49374e
 body
-    background: var(--primary2) 
+    background: var(--primary2)
     color: var(--light)
     font-family: 'Work sans' , sans-serif
 
@@ -28,6 +28,18 @@ body
 .btn
     height: 84px
     padding: 1rem 2rem
+
+.btn-primary
+    background: var(--primary)
+    color: black
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: all 0.3s ease-in
+    font-family: "Work Sans" , sans-serif
+    font-weight: 600
+    &:hover
+        background: #ffce4ecc
 
 .btn-primary-outline
     border: 1px solid var(--primary)
